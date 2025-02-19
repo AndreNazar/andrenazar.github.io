@@ -1,38 +1,22 @@
 @font-face {
   font-family: "NunitoSans-ExtraLight";
-  src: url(../assets/fonts/NunitoSans-ExtraLight.ttf);
+  src: url(../assets/fonts/NunitoSans-ExtraLight.woff2);
 }
 @font-face {
   font-family: "NunitoSans-Light";
-  src: url(../assets/fonts/NunitoSans-Light.ttf);
-}
-@font-face {
-  font-family: "NunitoSans-Medium";
-  src: url(../assets/fonts/NunitoSans-Medium.ttf);
-}
-@font-face {
-  font-family: "Inter-Light";
-  src: url(../assets/fonts/Inter-Light.ttf);
+  src: url(../assets/fonts/NunitoSans-Light.woff2);
 }
 @font-face {
   font-family: "Montserrat-Thin";
-  src: url(../assets/fonts/Montserrat-Thin.ttf);
-}
-@font-face {
-  font-family: "Montserrat-ExtraLight";
-  src: url(../assets/fonts/Montserrat-ExtraLight.ttf);
+  src: url(../assets/fonts/Montserrat-Thin.woff2);
 }
 @font-face {
   font-family: "Montserrat-Light";
-  src: url(../assets/fonts/Montserrat-Light.ttf);
+  src: url(../assets/fonts/Montserrat-Light.woff2);
 }
 @font-face {
   font-family: "Montserrat-Medium";
-  src: url(../assets/fonts/Montserrat-Medium.ttf);
-}
-@font-face {
-  font-family: "Montserrat-Regular";
-  src: url(../assets/fonts/Montserrat-Regular.ttf);
+  src: url(../assets/fonts/Montserrat-Medium.woff2);
 }
 
 $bgcolor: #25293C;
@@ -301,7 +285,7 @@ main{
               }
             }
             p{
-              font-family: "Montserrat-ExtraLight";
+              font-family: "NunitoSans-ExtraLight";
               margin: 0;
               margin-top: .5em;
               font-size: 14px;
