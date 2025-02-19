@@ -11,7 +11,7 @@ const myProjects = [
     },
     {
         title: 'Магазин цветов',
-        description: 'Веб-приложение встроенное в Telegram. Администрирую приложение до сих пор.',
+        description: 'Интернет-магазин встроенный в Telegram.',
         image: './assets/projects/dff.png',
         link: 'https://example.com/project1',
         github: 'https://example.com/project1',
@@ -43,7 +43,7 @@ const myProjects = [
     },
     {
         title: 'Loader&Charts',
-        description: 'Это было тестовое задание в одну из фирм Санкт-Петербурга. Его так и не посмотрели :( (Чего добру пропадать)',
+        description: 'Это было тестовое задание из Хабр.Карьера.',
         image: './assets/projects/loaders.png',
         link: 'https://example.com/project1',
         github: 'https://example.com/project1',
