@@ -59,6 +59,12 @@ $color-selected: #3E58A0;
   &:hover{
     opacity: 1;
   }
+  a{
+    display: flex;
+    gap: .7em;
+    text-decoration: none;
+    color: $color;
+  }
 }
 @mixin skills-style{
   display: flex;
@@ -333,19 +339,26 @@ main{
         }
       }
       &-text{
-        .buttons{
-          display: flex;
-          gap: 1em;
-          button{
-            align-items: center;
-            padding: .5em 1em;
-            gap: .5em;
-            span{
-              font-size: 14px;
-            }
-            img{
-              width: 20px;
-              height: 20px;
+        .contacts-list{
+          display: grid;
+          gap: .5em;
+          padding: 0;
+          list-style: none;
+          li{
+            a{
+              display: flex;
+              text-decoration: none;
+              color: $color;
+              width: fit-content;
+              align-items: center;
+              gap: .5em;
+              span{
+                font-size: 14px;
+              }
+              img, svg{
+                width: 20px;
+                height: 20px;
+              }
             }
           }
         }
@@ -461,17 +474,6 @@ footer{
   main {
     .projects-container .projects-content .projects-list .project-item{
       flex-direction: column;
-    }
-    .contacts-container .contacts-content-text .buttons {
-      button{
-        img, svg{
-          width: 18px;
-          height: 18px;
-        }
-        span{
-          font-size: 12px !important;
-        }
-      }
     }
   }
 }
