@@ -1,10 +1,16 @@
 import './style.scss'
+import colimg_png from '/assets/projects/colimg.png'
+import dff_png from '/assets/projects/dff.png'
+import manamainer_png from '/assets/projects/manamainer.png'
+import reg_png from '/assets/projects/reg.png'
+import fast_logo_png from '/assets/projects/fast-logo.png'
+import loaders_png from '/assets/projects/loaders.png'
 
 const myProjects = [
     {
         title: 'CoLimg',
         description: 'Сюда можно загрузить картинку и получить акцентные цвета.',
-        image: './assets/projects/colimg.png',
+        image: colimg_png,
         link: 'https://andrenazar.github.io/coLimg/',
         github: 'https://github.com/AndreNazar/coLimg',
         langs: ["HTML", "CSS", "TypeScript", "SCSS", "Webpack"],
@@ -12,7 +18,7 @@ const myProjects = [
     {
         title: 'Магазин цветов',
         description: 'Интернет-магазин встроенный в Telegram.',
-        image: './assets/projects/dff.png',
+        image: dff_png,
         link: 'https://imgur.com/a/wGBj92R',
         github: '',
         langs: ["React", "Redux", "JavaScript", "SCSS", "Create React App"],
@@ -20,7 +26,7 @@ const myProjects = [
     {
         title: 'Манамайнер',
         description: 'Игра по накоплению маны.',
-        image: './assets/projects/manamainer.png',
+        image: manamainer_png,
         link: 'https://andrenazar.github.io/manaminer/',
         github: 'https://github.com/AndreNazar/manaminer',
         langs: ["React", "Redux", "TypeScript", "SCSS", "Vite"],
@@ -28,7 +34,7 @@ const myProjects = [
     {
         title: 'RegExp Constructor',
         description: 'Конструктор RegExp выражений.',
-        image: './assets/projects/reg.png',
+        image: reg_png,
         link: 'https://andrenazar.github.io/RegExpConstroctor/',
         github: 'https://github.com/AndreNazar/RegExpConstroctor',
         langs: ["React", "Redux", "TypeScript", "SCSS", "Create React App"],
@@ -36,7 +42,7 @@ const myProjects = [
     {
         title: 'FastLogo',
         description: 'Здесь можно сгенерировать ультра-уникальный логотип.',
-        image: './assets/projects/fast-logo.png',
+        image: fast_logo_png,
         link: 'https://andrenazar.github.io/fast-logo/',
         github: 'https://github.com/AndreNazar/fast-logo',
         langs: ["React", "TypeScript", "SCSS", "Vite"]
@@ -44,7 +50,7 @@ const myProjects = [
     {
         title: 'Loader&Charts',
         description: 'Это было тестовое задание из Хабр.Карьера.',
-        image: './assets/projects/loaders.png',
+        image: loaders_png,
         link: 'https://andrenazar.github.io/loader-and-charts/',
         github: 'https://github.com/AndreNazar/loader-and-charts',
         langs: ["Vue", "TypeScript", "SCSS", "Vite"]
