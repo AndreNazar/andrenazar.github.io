@@ -1,61 +1,10 @@
-import './style.scss'
 import colimg_png from '/assets/projects/colimg.png'
 import dff_png from '/assets/projects/dff.png'
 import manamainer_png from '/assets/projects/manamainer.png'
 import reg_png from '/assets/projects/reg.png'
 import fast_logo_png from '/assets/projects/fast-logo.png'
 import loaders_png from '/assets/projects/loaders.png'
-
-const myProjects = [
-    {
-        title: 'CoLimg',
-        description: 'Сюда можно загрузить картинку и получить акцентные цвета.',
-        image: colimg_png,
-        link: 'https://andrenazar.github.io/coLimg/',
-        github: 'https://github.com/AndreNazar/coLimg',
-        langs: ["HTML", "CSS", "TypeScript", "SCSS", "Webpack"],
-    },
-    {
-        title: 'Магазин цветов',
-        description: 'Интернет-магазин встроенный в Telegram.',
-        image: dff_png,
-        link: 'https://imgur.com/a/wGBj92R',
-        github: '',
-        langs: ["React", "Redux", "JavaScript", "SCSS"],
-    },
-    {
-        title: 'Манамайнер',
-        description: 'Игра по накоплению маны.',
-        image: manamainer_png,
-        link: 'https://andrenazar.github.io/manaminer/',
-        github: 'https://github.com/AndreNazar/manaminer',
-        langs: ["React", "Redux", "TypeScript", "SCSS", "Vite"],
-    },
-    {
-        title: 'RegExp Constructor',
-        description: 'Конструктор RegExp выражений.',
-        image: reg_png,
-        link: 'https://andrenazar.github.io/RegExpConstroctor/',
-        github: 'https://github.com/AndreNazar/RegExpConstroctor',
-        langs: ["React", "Redux", "TypeScript", "SCSS"],
-    },
-    {
-        title: 'FastLogo',
-        description: 'Здесь можно сгенерировать ультра-уникальный логотип.',
-        image: fast_logo_png,
-        link: 'https://andrenazar.github.io/fast-logo/',
-        github: 'https://github.com/AndreNazar/fast-logo',
-        langs: ["React", "TypeScript", "SCSS", "Vite"]
-    },
-    {
-        title: 'Loader&Charts',
-        description: 'Это было тестовое задание из Хабр.Карьера.',
-        image: loaders_png,
-        link: 'https://andrenazar.github.io/loader-and-charts/',
-        github: 'https://github.com/AndreNazar/loader-and-charts',
-        langs: ["Vue", "TypeScript", "SCSS", "Vite"]
-    },
-]
+import myProjects from "../public/data/projects.json"
 
 const projectsListComponent = document.querySelector('.projects-list')
 

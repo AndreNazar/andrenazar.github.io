@@ -11,10 +11,6 @@
   src: url(../assets/fonts/Montserrat-Thin.woff2);
 }
 @font-face {
-  font-family: "Montserrat-Light";
-  src: url(../assets/fonts/Montserrat-Light.woff2);
-}
-@font-face {
   font-family: "Montserrat-Medium";
   src: url(../assets/fonts/Montserrat-Medium.woff2);
 }
@@ -32,6 +28,12 @@ $color-selected: #3E58A0;
   justify-content: center;
   width: 100%;
 }
+@mixin fade-block($delay) {
+  opacity: 0;
+
+  animation: fade 1s forwards;
+  animation-delay: $delay;
+}
 
 @mixin default-content{
   max-width: 1200px;
@@ -42,6 +44,17 @@ $color-selected: #3E58A0;
   padding: 1em;
   gap: 1em;
 }
+
+@mixin default-content{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1em;
+  gap: 1em;
+}
+
 @mixin button-style{
   display: flex;
   gap: .7em;
@@ -128,6 +141,7 @@ main{
       .about-info{
         display: grid;
         width: 60%;
+        @include fade-block(.1s);
         .about-me{
           font-size: clamp(13px, 2.5vw, 16px );
         }
@@ -159,6 +173,7 @@ main{
     
       .about-photo{
         width: 30%;
+        @include fade-block(0s);
         h1{
           text-align: center;
           font-size: 25px;
@@ -205,10 +220,12 @@ main{
       }
     }
   }
-  .projects-container{
+
+  .projects-container, .experience-container{
     @include default-container;
-    .projects-content{
+    .projects-content, .experience-content{
       @include default-content;
+      @include fade-block(.2s);
       
       h2{
         font-family: "Montserrat-Thin";
@@ -222,6 +239,44 @@ main{
         margin-top: 0;
         margin-bottom: 2em;
       }
+    }
+  }
+
+  .experience-container{
+    .experience-content{
+      
+      .experience-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        .experience-item{
+          position: relative;
+          display: flex;
+          gap: 1em;
+          align-items: start;
+          border: 1px solid $color-extra-light;
+          background-color: #0002;
+          box-sizing: border-box;
+          border-radius: 10px;
+          padding: 1em;
+          transition: .2s;
+          .logo-block{
+            display: grid;
+            img{
+              width: 70px;
+              height: 70px;
+              object-fit: cover;
+              border-radius: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .projects-container{
+    .projects-content{
       .highlight{
         position: absolute;
         top: 100px;
@@ -297,6 +352,15 @@ main{
         }
       }
     }
+  }
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
   }
 }
 
@@ -393,7 +457,4 @@ main{
       flex-direction: column;
     }
   }
-}
-
-@media (max-width: 320px) {
 }

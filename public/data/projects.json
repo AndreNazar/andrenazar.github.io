@@ -1,0 +1,50 @@
+[
+    {
+        "title": "CoLimg",
+        "description": "Сюда можно загрузить картинку и получить акцентные цвета.",
+        "image": "/assets/imgs/projects/colimg.png",
+        "link": "https://andrenazar.github.io/coLimg",
+        "github": "https://github.com/AndreNazar/coLimg",
+        "langs": ["HTML", "CSS", "TypeScript", "SCSS", "Webpack"]
+    },
+    {
+        "title": "Магазин цветов",
+        "description": "Интернет-магазин встроенный в Telegram.",
+        "image": "/assets/imgs/projects/dff.png",
+        "link": "https://imgur.com/a/wGBj92R",
+        "github": "",
+        "langs": ["React", "Redux", "JavaScript", "SCSS"]
+    },
+    {
+        "title": "Манамайнер",
+        "description": "Игра по накоплению маны.",
+        "image": "/assets/imgs/projects/manamainer.png",
+        "link": "https://andrenazar.github.io/manaminer",
+        "github": "https://github.com/AndreNazar/manaminer",
+        "langs": ["React", "Redux", "TypeScript", "SCSS", "Vite"]
+    },
+    {
+        "title": "RegExp Constructor",
+        "description": "Конструктор RegExp выражений.",
+        "image": "/assets/imgs/projects/reg.png",
+        "link": "https://andrenazar.github.io/RegExpConstroctor/",
+        "github": "https://github.com/AndreNazar/RegExpConstroctor",
+        "langs": ["React", "Redux", "TypeScript", "SCSS"]
+    },
+    {
+        "title": "FastLogo",
+        "description": "Здесь можно сгенерировать ультра-уникальный логотип.",
+        "image": "/assets/imgs/projects/fast-logo.png",
+        "link": "https://andrenazar.github.io/fast-logo/",
+        "github": "https://github.com/AndreNazar/fast-logo",
+        "langs": ["React", "TypeScript", "SCSS", "Vite"]
+    },
+    {
+        "title": "Loader&Charts",
+        "description": "Это было тестовое задание из Хабр.Карьера.",
+        "image": "/assets/imgs/projects/loaders.png",
+        "link": "https://andrenazar.github.io/loader-and-charts",
+        "github": "https://github.com/AndreNazar/loader-and-charts",
+        "langs": ["Vue", "TypeScript", "SCSS", "Vite"]
+    }
+]
