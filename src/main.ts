@@ -21,7 +21,7 @@ const myProjects = [
         image: dff_png,
         link: 'https://imgur.com/a/wGBj92R',
         github: '',
-        langs: ["React", "Redux", "JavaScript", "SCSS", "Create React App"],
+        langs: ["React", "Redux", "JavaScript", "SCSS"],
     },
     {
         title: 'Манамайнер',
@@ -37,7 +37,7 @@ const myProjects = [
         image: reg_png,
         link: 'https://andrenazar.github.io/RegExpConstroctor/',
         github: 'https://github.com/AndreNazar/RegExpConstroctor',
-        langs: ["React", "Redux", "TypeScript", "SCSS", "Create React App"],
+        langs: ["React", "Redux", "TypeScript", "SCSS"],
     },
     {
         title: 'FastLogo',

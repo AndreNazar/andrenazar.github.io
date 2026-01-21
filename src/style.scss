@@ -115,54 +115,10 @@ button{
 }
 
 main{
-  .intro-container{
-    @include default-container;
-    height: 100vh;
-    .highlight{
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      width: 150px;
-      height: 150px;
-      border-radius: 100%;
-      background-color: #A9B1D6;
-      filter: blur(150px);
-    }
-    .intro-content{
-      @include default-content;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-
-      &-text{
-        text-align: center;
-        h1{
-          font-family: "Montserrat-Thin";
-          font-size: clamp(28px, 5vw, 42px );
-          margin: 0;
-        }
-        p{
-          font-family: "Montserrat-Light";  
-          color: #3E58A0;
-          font-size: 0px;
-          margin: 0;
-        }
-      }
-      button{
-        font-family: "Montserrat-Light";
-        margin-top: clamp(1em, 5vw, 3em);
-        justify-self: center;
-        font-size: clamp(14px, 3vw, 18px);
-        img{
-          width: clamp(18px, 2vw, 25px);
-          height: clamp(18px, 2vw, 25px);
-        }
-      }
-    }
-  }
+  padding-bottom: 40px;
   .about-container{
     @include default-container;
+    margin-top: 150px;
     
     .about-content{
       @include default-content;
@@ -175,11 +131,15 @@ main{
         .about-me{
           font-size: clamp(13px, 2.5vw, 16px );
         }
-        
+        .content-block{
+          margin-top: 1em;
+        }
         .content-title{
           display: flex;
           gap: .5em;
           align-items: center;
+          margin: 0;
+          margin-bottom: .5em;
         }
         .skills{
           display: flex;
@@ -194,24 +154,53 @@ main{
             height: 20px !important;
           }
         }
-        .other-service{
-          margin-top: 1.5em;
-          width: 100%;
-          font-size: clamp(13px, 2.5vw, 16px );
-          a{
-            color: #A9B1D6;
-          }
-        }
       }
+      
     
       .about-photo{
         width: 30%;
+        h1{
+          text-align: center;
+          font-size: 25px;
+          margin: 10px 0 0 0;
+        }
         .my-photo{
           width: 100%;
           border-radius: 10px;
           box-shadow: 10px 10px 70px #fff5;
           box-sizing: border-box;
           opacity: .3;
+        }
+        .contacts-list{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 1em;
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          margin-top: .5em;
+          li{
+            a{
+              display: flex;
+              text-decoration: none;
+              color: $color;
+              width: fit-content;
+              align-items: center;
+              opacity: .6;
+              transition: opacity .2s;
+              span{
+                font-size: 0px;
+              }
+              img, svg{
+                width: 25px;
+                height: 25px;
+              }
+              &:hover{
+                opacity: 1;
+              }
+            }
+          }
         }
       }
     }
@@ -307,78 +296,6 @@ main{
           }
         }
       }
-    }
-  }
-
-  .contacts-container{
-    @include default-container;
-    height: 100vh;
-    .highlight{
-      position: absolute;
-      bottom: 150px;
-      left: 15%;
-      width: 150px;
-      height: 150px;
-      border-radius: 100%;
-      background-color: #A9B1D6;
-      filter: blur(150px);
-    }
-    .contacts-content{
-      @include default-content;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      justify-content: center;
-      gap: 3em;
-      .contacts-image{
-        img{
-          opacity: .2;
-          width: 350px;
-        }
-      }
-      &-text{
-        .contacts-list{
-          display: grid;
-          gap: .5em;
-          padding: 0;
-          list-style: none;
-          li{
-            a{
-              display: flex;
-              text-decoration: none;
-              color: $color;
-              width: fit-content;
-              align-items: center;
-              gap: .5em;
-              span{
-                font-size: 14px;
-              }
-              img, svg{
-                width: 20px;
-                height: 20px;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-footer{
-  @include default-container;
-  background-color: #25293C;
-  box-sizing: border-box;
-  padding: 1em;
-  .footer-content{
-    @include default-content;
-    p{
-      margin: 0;
-      font-family: "Montserrat-Medium";
-      color: #545c7e;
-      font-size: 14px;
     }
   }
 }
