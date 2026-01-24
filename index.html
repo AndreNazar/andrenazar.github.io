@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="./public/assets/favicon.png" />
+  <link rel="icon" type="image/png" href="./public/assets/imgs/favicon.png" />
   <link rel="stylesheet" href="./src/style.scss" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Андрей Назаров</title>
@@ -11,6 +11,35 @@
 
 <body>
   <main>
+    <div class="modal-helper">
+      <div class="modal-helper-content-block">
+        <div class="button-close" title="Закрыть">
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="modal-heading">
+          <div class="modal-logo-title">
+            <img class="modal-logo" src="./public/assets/imgs/projects/learnnumbers.webp"/>
+            <h1></h1>
+          </div>
+          <div class="links">
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#A9B1D6"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg>
+            </button>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" height="12px" width="12px" viewBox="0 0 191.51 186.79" fill="#A9B1D6"><path d="M95.76,0A95.76,95.76,0,0,0,65.48,186.61c4.79.89,6.55-2.07,6.55-4.6,0-2.29-.09-9.83-.13-17.83-26.64,5.79-32.26-11.3-32.26-11.3-4.36-11.06-10.64-14-10.64-14-8.69-5.94.65-5.82.65-5.82,9.62.68,14.68,9.87,14.68,9.87,8.55,14.64,22.41,10.4,27.87,8,.86-6.19,3.33-10.42,6.08-12.81C57,135.65,34.65,127.44,34.65,90.75A37.06,37.06,0,0,1,44.52,65c-1-2.4-4.27-12.14.93-25.33,0,0,8-2.57,26.34,9.82a90.63,90.63,0,0,1,48,0c18.28-12.39,26.3-9.82,26.3-9.82,5.22,13.19,1.94,22.94.94,25.34a37,37,0,0,1,9.85,25.7c0,36.78-22.4,44.88-43.72,47.25,3.43,3,6.5,8.8,6.5,17.74,0,12.81-.11,23.12-.11,26.27,0,2.55,1.72,5.54,6.57,4.6A95.77,95.77,0,0,0,95.76,0"/></svg>
+            </button>
+        </div>
+        </div>
+        <section class="embla">
+          <div class="embla__viewport">
+            <div class="embla__container"></div>
+          </div>
+        </section>
+        <p class="full-description"></p>
+        <p class="demo"></p>
+      </div>
+    </div>
     <section class="about-container">
       <div class="about-content">
         <div class="about-photo">
@@ -130,7 +159,7 @@
       <div class="experience-content">
         <div class="highlight"></div>
         <h2>Мой опыт</h2>
-        <p class="pretext">Комерческий опыт работы в команде</p>
+        <p class="pretext">Коммерческий опыт работы в команде</p>
         <div class="experience-list"></div>
       </div>
     </section>
@@ -138,7 +167,7 @@
       <div class="projects-content">
         <div class="highlight"></div>
         <h2>Мои проекты</h2>
-        <p class="pretext">Всё представленное сделано исключительно мной от идеи до деплоя</p>
+        <p class="pretext">Все коммерческие проекты я разрабатывал в команде, а остальное — это пет-проекты, <br />которые были сделаны исключительно мной от идеи до деплоя</p>
         <div class="projects-list"></div>
       </div>
     </section>
@@ -146,6 +175,7 @@
 
 
   <script type="module" src="./src/main.ts"></script>
+  <script type="module" src="./src/modal.ts"></script>
 </body>
 
 </html>

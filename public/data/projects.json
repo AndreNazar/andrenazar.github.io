@@ -1,50 +1,160 @@
 [
+    
+    {
+        "title": "No Internet",
+        "description": "Страница, которая работает без интернета",
+        "fullDescription": "Страница, которая работает без интернета.<br/>Эксперементировал с ServiceWorker + CacheAPI. Сделал страницу интерактивной с использованием Three.js.",
+        "logo": "/assets/imgs/projects/no-internet/logo.webp",
+        "images": ["/assets/imgs/projects/no-internet/1.webp", "/assets/imgs/projects/no-internet/2.webp"],
+        "link": "https://andrenazar.github.io/no-internet-page",
+        "github": "https://github.com/AndreNazar/no-internet-page",
+        "comercial": false,
+        "langs": ["TypeScript", "SCSS", "Vite", "Three.js"]
+    },
+    
+    {
+        "title": "Text Visualization",
+        "description": "Визуализация текста в пространстве",
+        "fullDescription": "Визуализация текста в пространстве",
+        "logo": "/assets/imgs/projects/text-visualization.png",
+        "images": [],
+        "link": "https://andrenazar.github.io/text-visualization",
+        "github": "https://github.com/AndreNazar/text-visualization",
+        "comercial": false,
+        "langs": ["React", "TypeScript", "SCSS", "Vite", "Pixi.js"]
+    },
+    
+    {
+        "title": "Fit+",
+        "description": "Приложение фитнес-трекер в Telegram",
+        "fullDescription": "Приложение фитнес-трекер в Telegram",
+        "logo": "/assets/imgs/projects/fit.png",
+        "images": [],
+        "link": "https://andrenazar.github.io/text-visualization",
+        "github": "",
+        "comercial": true,
+        "langs": ["React", "TypeScript", "SCSS", "Vite", "Telegram"]
+    },
+    {
+        "title": "Sort Visualizer",
+        "description": "Визуализация работы алгоритма Quick Sort",
+        "fullDescription": "Визуализация работы алгоритма Quick Sort",
+        "logo": "/assets/imgs/projects/sort-visualization.png",
+        "images": [],
+        "link": "https://andrenazar.github.io/sort-visualizer",
+        "github": "https://github.com/AndreNazar/sort-visualizer",
+        "comercial": false,
+        "langs": ["TypeScript", "SCSS", "Webpack"]
+    },
+
     {
         "title": "CoLimg",
         "description": "Сюда можно загрузить картинку и получить акцентные цвета.",
-        "image": "/assets/imgs/projects/colimg.png",
+        "fullDescription": "Сюда можно загрузить картинку и получить акцентные цвета.",
+        "logo": "/assets/imgs/projects/colimg.png",
+        "images": [],
         "link": "https://andrenazar.github.io/coLimg",
         "github": "https://github.com/AndreNazar/coLimg",
+        "comercial": false,
         "langs": ["HTML", "CSS", "TypeScript", "SCSS", "Webpack"]
     },
     {
         "title": "Магазин цветов",
         "description": "Интернет-магазин встроенный в Telegram.",
-        "image": "/assets/imgs/projects/dff.png",
+        "fullDescription": "Интернет-магазин встроенный в Telegram.",
+        "logo": "/assets/imgs/projects/dff.png",
+        "images": [],
         "link": "https://imgur.com/a/wGBj92R",
         "github": "",
+        "comercial": true,
+        "langs": ["React", "Redux", "JavaScript", "SCSS"]
+    },
+    {
+        "title": "FindPath",
+        "description": "Визуализация поиска путей",
+        "fullDescription": "Визуализация поиска путей",
+        "logo": "/assets/imgs/projects/find-path.png",
+        "images": [],
+        "link": "https://andrenazar.github.io/find-path",
+        "github": "https://github.com/AndreNazar/find-path",
+        "comercial": false,
+        "langs": ["Vue", "JavaScript", "SCSS"]
+    },
+    {
+        "title": "Track Stock",
+        "description": "Сервис продажи брендовых кроссовок.",
+        "fullDescription": "Сервис продажи брендовых кроссовок.",
+        "logo": "/assets/imgs/projects/trackstock.png",
+        "images": [],
+        "link": "",
+        "github": "",
+        "comercial": true,
         "langs": ["React", "Redux", "JavaScript", "SCSS"]
     },
     {
         "title": "Манамайнер",
         "description": "Игра по накоплению маны.",
-        "image": "/assets/imgs/projects/manamainer.png",
+        "fullDescription": "Игра по накоплению маны.",
+        "logo": "/assets/imgs/projects/manamainer.png",
+        "images": [],
         "link": "https://andrenazar.github.io/manaminer",
         "github": "https://github.com/AndreNazar/manaminer",
+        "comercial": false,
         "langs": ["React", "Redux", "TypeScript", "SCSS", "Vite"]
     },
     {
         "title": "RegExp Constructor",
         "description": "Конструктор RegExp выражений.",
-        "image": "/assets/imgs/projects/reg.png",
+        "fullDescription": "Конструктор RegExp выражений.",
+        "logo": "/assets/imgs/projects/reg.png",
+        "images": [],
         "link": "https://andrenazar.github.io/RegExpConstroctor/",
         "github": "https://github.com/AndreNazar/RegExpConstroctor",
+        "comercial": false,
         "langs": ["React", "Redux", "TypeScript", "SCSS"]
     },
     {
-        "title": "FastLogo",
+        "title": "Fast Logo",
         "description": "Здесь можно сгенерировать ультра-уникальный логотип.",
-        "image": "/assets/imgs/projects/fast-logo.png",
+        "fullDescription": "Здесь можно сгенерировать ультра-уникальный логотип.",
+        "logo": "/assets/imgs/projects/fast-logo.png",
+        "images": [],
         "link": "https://andrenazar.github.io/fast-logo/",
         "github": "https://github.com/AndreNazar/fast-logo",
+        "comercial": false,
         "langs": ["React", "TypeScript", "SCSS", "Vite"]
     },
     {
-        "title": "Loader&Charts",
-        "description": "Это было тестовое задание из Хабр.Карьера.",
-        "image": "/assets/imgs/projects/loaders.png",
+        "title": "HFCRKFLRF",
+        "description": "Переключение английской раскладки на русскую и наоборот",
+        "fullDescription": "Переключение английской раскладки на русскую и наоборот",
+        "logo": "/assets/imgs/projects/hfcrkflrf.png",
+        "images": [],
+        "link": "https://andrenazar.github.io/hfcrkflrf",
+        "github": "https://github.com/AndreNazar/hfcrkflrf",
+        "comercial": false,
+        "langs": ["TypeScript", "SCSS", "Vite"]
+    },
+    {
+        "title": "Loader & Charts",
+        "description": "Тестовое задание из Хабр.Карьера.",
+        "fullDescription": "Тестовое задание из Хабр.Карьера.",
+        "logo": "/assets/imgs/projects/loaders.png",
+        "images": [],
         "link": "https://andrenazar.github.io/loader-and-charts",
         "github": "https://github.com/AndreNazar/loader-and-charts",
+        "comercial": false,
         "langs": ["Vue", "TypeScript", "SCSS", "Vite"]
+    },
+    {
+        "title": "Learn Numbers",
+        "description": "Мини викторина английских цифр.",
+        "fullDescription": "Мини викторина английских цифр.",
+        "logo": "/assets/imgs/projects/learnnumbers.webp",
+        "images": [],
+        "link": "https://andrenazar.github.io/learnnumbers/",
+        "github": "https://github.com/AndreNazar/learnnumbers",
+        "comercial": false,
+        "langs": ["JavaScript"]
     }
 ]
