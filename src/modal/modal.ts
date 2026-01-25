@@ -1,8 +1,8 @@
 
-import ModalHelper from './ModalHelper';
+import ModalHelper from '../ModalHelper';
 import EmblaCarousel, { EmblaOptionsType } from 'embla-carousel'
-import projects from "../public/data/projects.json"
-import { openPreview } from './imagePreview/imagePreview'
+import projects from "../../public/data/projects.json"
+import { openPreview } from '../imagePreview/imagePreview'
 
 const buttonsModal = document.querySelectorAll('.button-modal');
 const emblaContainer = document.querySelector('.embla__container');
