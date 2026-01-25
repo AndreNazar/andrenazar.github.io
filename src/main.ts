@@ -42,7 +42,6 @@ projectsListComponent!.innerHTML = projects.map(project => `
             <div class="experience-info">
               <h3>${experience.dates}</h3>
               <p>${experience.description}</p>
-              <h4>Кейсы:</h4>
               <ul class="cases-list">
                 ${experience.cases.map(caseItem => `<li>${caseItem}</li>`).join('')}
               </ul>
