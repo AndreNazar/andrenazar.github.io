@@ -83,6 +83,15 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       max-height: 80%;
       transition: .2s;
+
+      &::-webkit-scrollbar{
+        width: 5px;
+      }
+      &::-webkit-scrollbar-track{
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      
       a{
         color: $color;
       }

@@ -120,6 +120,7 @@ $color-selected: #3E58A0;
 html, body{
   margin: 0 !important; 
   padding: 0 !important;
+
 }
 button{
   @include button-style;
@@ -140,9 +141,12 @@ button{
   border-radius: 5px;
 }
 
+
 main{
   padding-bottom: 40px;
-
+  overflow-y: auto;
+  max-height: 100vh;
+  box-sizing: border-box;
 
   .about-container{
     @include default-container;
@@ -289,7 +293,7 @@ main{
           box-sizing: border-box;
           border-radius: 10px;
           width: 100%;
-          padding: 1em;
+          padding: 1em 0;
           transition: .2s;
           
           .logo-wrapper{
@@ -461,6 +465,7 @@ main{
   .contacts-content,
   .projects-content,
   .about-content,
+  .experience-content,
   .intro-content {
     max-width: 1000px !important;
   }
@@ -471,6 +476,7 @@ main{
   .contacts-content,
   .projects-content,
   .about-content,
+  .experience-content,
   .intro-content {
     max-width: 900px !important;
   }
@@ -486,6 +492,9 @@ main{
   }
 
   main{ 
+    .about-container {
+      margin-top: 2em;
+    }
     .about-container .about-content{
       display: grid;
       justify-items: center;
@@ -547,7 +556,6 @@ main{
   .experience-item{
     display: grid;
     align-items: center;
-    gap: .5em;
     .logo-wrapper{
         width: 100%;
         gap: 1em;
