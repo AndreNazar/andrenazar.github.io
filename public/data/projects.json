@@ -1,171 +1,46 @@
 [
-    
-    {
-        "title": "Noxer",
-        "description": "Универсальный ИИ магазин в Telegram Web App",
-        "fullDescription": "AI-продукт, предоставляющий бизнесам (по подписке) полностью контролируемый интернет-магазин в Telegram Web App с настраиваемым ИИ-помощником.<br/><br/>Участвовал в разработке, разрабатывал универсальный магазин и админ-панель для его контроля. Выделить конкретно то, что я делал, трудно, так как ко всему интерфейсу в проекте я приложил руку в той или иной степени.<br/><br/>Можно было бы разделить этот проект на два, потому что админка получилась очень массивная. Была проделана колоссальная работа над админкой и магазином. Очень много контента и возможностей.",
-        "logo": "/assets/imgs/projects/noxer/logo.webp",
-        "images": ["/assets/imgs/projects/noxer/1.jpg","/assets/imgs/projects/noxer/2.jpg","/assets/imgs/projects/noxer/3.jpg","/assets/imgs/projects/noxer/4.png","/assets/imgs/projects/noxer/5.png","/assets/imgs/projects/noxer/6.png","/assets/imgs/projects/noxer/7.png"],
-        "link": "https://noxer.ru",
-        "github": "",
-        "comercial": true,
-        "langs": ["React", "TypeScript", "SCSS", "Vite", "Telegram", "Telegram"]
-    },
-    {
-        "title": "Fit+",
-        "description": "Приложение фитнес-трекер в Telegram",
-        "fullDescription": "ИИ фитнес-тренер, который создает план питания и тренировок под пользователя и доступен 24/7.<br/><br/>Проект разрабатывался в команде Noxer, его идея была в анализе данных, которые вводил пользователь. В бот были встроены различные ИИ-модели, и можно было вписать информацию о своей тренировке, и в формате диалога бот выделял значения для анализа и записывал их в общую БД.<br/>Мы, фронтенд-разработчики, разрабатывали интерфейс приложения в Telegram Web App. Сложнее всего было работать с графиками и отрисовывать их в совместимости с макетом. Но со своей задачей мы справились! Всё работает так, как задумывалось.<br/><br/>В данный момент проект находится на паузе, так как было принято решение сконцентрироваться на флагманском проекте Noxer.",
-        "logo": "/assets/imgs/projects/fit/logo.png",
-        "images": ["/assets/imgs/projects/fit/1.png","/assets/imgs/projects/fit/2.png","/assets/imgs/projects/fit/3.png","/assets/imgs/projects/fit/4.png","/assets/imgs/projects/fit/5.png","/assets/imgs/projects/fit/6.png"],
-        "link": "",
-        "github": "",
-        "comercial": true,
-        "langs": ["React", "TypeScript", "SCSS", "Vite", "Telegram"]
-    },
-    {
-        "title": "LF Safe",
-        "description": "Сервис продажи брендовых кроссовок.",
-        "fullDescription": "Сервис продажи и покупки брендовых кроссовок. Узконаправленный локальный проект для конкретной группы пользователей.<br/><br/>Принимал участие в разработке приложения в небольшой команде. Разрабатывал интерфейс с нуля по макету конкурентов (некоторые изменения в дизайн были внесены в момент разработки). В основном работал с бэкенд-разработчиком.<br/><br/>В приложении есть аналитика продаж, CRUD товаров, поиск, информация о профиле.",
-        "logo": "/assets/imgs/projects/lfsafe/logo.png",
-        "images": ["/assets/imgs/projects/lfsafe/1.jpg","/assets/imgs/projects/lfsafe/2.jpg", "/assets/imgs/projects/lfsafe/3.jpg"],
-        "link": "",
-        "github": "",
-        "comercial": true,
-        "langs": ["React", "Redux", "JavaScript", "SCSS"]
-    },
-    {
-        "title": "Магазин цветов",
-        "description": "Интернет-магазин встроенный в Telegram.",
-        "fullDescription": "Интернет-магазин по продаже цветов. Находился в Telegram WebApp в виде бота. <br />Разрабатывал на заказ, для магазина цветов, с ещё одним backend-разработчиком. Продолжительное время вносили правки в проект. В конечном итоге приложением почти никто не пользовался и сервер перестали оплачивать, концентрируясь на сервисах Яндекс.",
-        "logo": "/assets/imgs/projects/dff/logo.png",
-        "images": ["/assets/imgs/projects/dff/1.png", "/assets/imgs/projects/dff/2.png", "/assets/imgs/projects/dff/3.png"],
-        "link": "",
-        "github": "",
-        "comercial": true,
-        "langs": ["React", "Redux", "JavaScript", "SCSS"]
-    },
-    {
-        "title": "Манамайнер",
-        "description": "Idle игра по накоплению магической маны.",
-        "fullDescription": "Веселая инкрементальная игра, в пиксильном стиле про накопление магической маны. Здесь, как по мне, я загрузил много контента, старался не нарушить ММО-шный стиль и атмосферу. Сделано с душой!<br/><br/>Здесь есть магазин предметов, информация о профиле, система достижений, система обучения. Игра реализована на чистом DOM без использования игровых движков и canvas. <br/>Игра есть на itch.io.",
-        "logo": "/assets/imgs/projects/manamainer/logo.png",
-        "images": ["/assets/imgs/projects/manamainer/1.png","/assets/imgs/projects/manamainer/2.png","/assets/imgs/projects/manamainer/3.png","/assets/imgs/projects/manamainer/4.png","/assets/imgs/projects/manamainer/5.png","/assets/imgs/projects/manamainer/6.png","/assets/imgs/projects/manamainer/7.png","/assets/imgs/projects/manamainer/8.png","/assets/imgs/projects/manamainer/9.png"],
-        "link": "https://andrenazar.github.io/manaminer",
-        "github": "https://github.com/AndreNazar/manaminer",
-        "comercial": false,
-        "langs": ["React", "Redux", "TypeScript", "SCSS", "Vite"]
-    },
-    
-    {
-        "title": "Text Visualization",
-        "description": "Визуализация текста в пространстве",
-        "fullDescription": "Приложение, в котором можно ввести набор текстов и посмотреть, как они будут располагаться в пространстве в виде точек.<br/><br/>Такую визуализацию я однажды увидел на канале @onigiri, где он визуализировал более 10000 комментариев, очень интересный ролик и идея. Я не пробовал загружать 10000 комментариев, но если постараться найти файл с эмбендингами на 10000 комментариев, то в добрый путь! Ограничений никаких нет, все вычисления производятся в браузере на клиенте.<br/><br/>Не нашел вариант генерировать эмбендинги в браузере, кроме как генерировать скрипт и слать пользователя с этим скриптом в Google Colab, где есть python с LLMками.<br/><br/>Работает так:<br/>На вход дается набор текста, этот текст разрезается на абзацы и генерируется тот самый скрипт, пользователь переходит в Google Colab и вставляет скрипт, после чего на компьютер загружается json эмбендигов каждого абзаца. После пользователь отдает на вход сгенерированный json, и далее эмбединги обрабатываются через алгоритм UMAP и преобразуются из 384-мерного пространства в 2-мерное. Затем проходит процесс кластеризации точек через алгоритм DBSCAN, чтобы выделить ближайшие точки и объединить их в один кластер (цвет). Далее это всё попадает в визуальное пространство с помощью WebGL. Использовал для этого библиотеку PixiJS.",
-        "logo": "/assets/imgs/projects/text-visualization/logo.png",
-        "images": ["/assets/imgs/projects/text-visualization/1.png", "/assets/imgs/projects/text-visualization/2.png", "/assets/imgs/projects/text-visualization/3.png", "/assets/imgs/projects/text-visualization/4.png"],
-        "link": "https://andrenazar.github.io/text-visualization",
-        "github": "https://github.com/AndreNazar/text-visualization",
-        "comercial": false,
-        "langs": ["React", "TypeScript", "SCSS", "Vite", "Pixi.js"]
-    },
-    
-
-    {
-        "title": "CoLimg",
-        "description": "Сайт для получения акцентных цветов.",
-        "fullDescription": "Сюда можно загрузить картинку и получить акцентные цвета. <br/>С помощью этой страницы можно получить 3 основных цвета загружаемого изображения.<br/>Для определения основных цветов изображения используется алгоритм кластеризации цветов K-Means.",
-        "logo": "/assets/imgs/projects/colimg/logo.png",
-        "images": ["/assets/imgs/projects/colimg/1.png", "/assets/imgs/projects/colimg/2.png", "/assets/imgs/projects/colimg/3.png"],
-        "link": "https://andrenazar.github.io/coLimg",
-        "github": "https://github.com/AndreNazar/coLimg",
-        "comercial": false,
-        "langs": ["HTML", "CSS", "TypeScript", "SCSS", "Webpack"]
-    },
-    {
-        "title": "RegExp Constructor",
-        "description": "Конструктор регульярных выражений.",
-        "fullDescription": "Конструктор регулярных выражений.<br/>Идея в том, что весь синтаксис интерактивный и можно создать любое регулярное выражение словно по кирпичикам. Справа нужно вставить необходимый текст для теста, справа снизу будет результат. Внизу экрана есть само регулярное выражение, которое можно скопировать и использовать. <br/><br/>Создавал для того, чтобы пользоваться самому и заодно попрактиковаться в регулярных выражениях. На самом деле этим не так удобно пользоваться, как я себе это представлял, к тому же работает нестабильно и много чего не хватает. Пригодна только для каких-то суперлегких выражений, таких как на скрине.",
-        "logo": "/assets/imgs/projects/reg-exp/logo.png",
-        "images": ["/assets/imgs/projects/reg-exp/1.png","/assets/imgs/projects/reg-exp/2.png"],
-        "link": "https://andrenazar.github.io/RegExpConstroctor/",
-        "github": "https://github.com/AndreNazar/RegExpConstroctor",
-        "comercial": false,
-        "langs": ["React", "Redux", "TypeScript", "SCSS"]
-    },
-    {
-        "title": "Fast Logo",
-        "description": "Здесь можно сгенерировать уникальный логотип.",
-        "fullDescription": "Сайт для создания логотипов.<br/>Здесь вы можете с помощью одной кнопки создать простой и уникальный логотип! В приложении есть возможность сгенерировать логотип, поменять его цвет и скачать его.<br/><br/>Логотипы генерируются с помощью SVG.",
-        "logo": "/assets/imgs/projects/fast-logo/logo.png",
-        "images": ["/assets/imgs/projects/fast-logo/1.png","/assets/imgs/projects/fast-logo/2.png","/assets/imgs/projects/fast-logo/3.png"],
-        "link": "https://andrenazar.github.io/fast-logo/",
-        "github": "https://github.com/AndreNazar/fast-logo",
-        "comercial": false,
-        "langs": ["React", "TypeScript", "SCSS", "Vite"]
-    },
-    {
-        "title": "Sort Visualizer",
-        "description": "Визуализация работы алгоритма Quick Sort",
-        "fullDescription": "Визуализация алгоритма Quick Sort. Перед открытием стоит убавить звук. <br/><br/>Появилось желание сделать что-то со звуком, чтобы алгоритм как-то влиял на воспроизведение звука. Остановился на визуализации Quick Sort.<br/>Здесь всего две кнопки, для перетасовки и для воспроизведения сортировки.",
-        "logo": "/assets/imgs/projects/sort-visualization/logo.png",
-        "images": ["/assets/imgs/projects/sort-visualization/1.png"],
-        "link": "https://andrenazar.github.io/sort-visualizer",
-        "github": "https://github.com/AndreNazar/sort-visualizer",
-        "comercial": false,
-        "langs": ["TypeScript", "SCSS", "Webpack"]
-    },
-    {
-        "title": "No Internet",
-        "description": "Страница, которая работает без интернета",
-        "fullDescription": "Страница, которая работает без интернета.<br/>Эксперементировал с ServiceWorker + CacheAPI. Сделал страницу интерактивной с использованием Three.js.",
-        "logo": "/assets/imgs/projects/no-internet/logo.webp",
-        "images": ["/assets/imgs/projects/no-internet/1.png", "/assets/imgs/projects/no-internet/2.png"],
-        "link": "https://andrenazar.github.io/no-internet-page",
-        "github": "https://github.com/AndreNazar/no-internet-page",
-        "comercial": false,
-        "langs": ["TypeScript", "SCSS", "Vite", "Three.js"]
-    },
-    {
-        "title": "FindPath",
-        "description": "Визуализация поиска путей",
-        "fullDescription": "В этом приложении я эксперементировал с Vue. <br/>Для поиска путей долен был использоваться алгоритм A*, но здесь нет никакого алгоритма. Поиск пути каждый раз проходит случайным образом в направлении правого нижнего угла.<br/><br/>Проект разрабатывался с целью просто поэксперементировать с Vue.",
-        "logo": "/assets/imgs/projects/find-path/logo.png",
-        "images": ["/assets/imgs/projects/find-path/1.png", "/assets/imgs/projects/find-path/2.png"],
-        "link": "https://andrenazar.github.io/find-path",
-        "github": "https://github.com/AndreNazar/find-path",
-        "comercial": false,
-        "langs": ["Vue", "JavaScript", "SCSS"]
-    },
-    {
-        "title": "Learn Numbers",
-        "description": "Мини викторина английских цифр.",
-        "fullDescription": "LearnNumbers - страница, на которой можно выучить английские цифры.<br/><br/>Будут даны квизы, ваша задача просто выбирать правильный ответ за 3 секунды.<br/>Если вы ответите неправильно, либо вы не успеете ответить за 3 секунды, то вам начислится предупреждение.<br/>Если вы наберете 3 предупреждения, то счет обнуляется и придется начать заново.",
-        "logo": "/assets/imgs/projects/learnnumbers/logo.webp",
-        "images": ["/assets/imgs/projects/learnnumbers/1.png", "/assets/imgs/projects/learnnumbers/2.png", "/assets/imgs/projects/learnnumbers/3.png"],
-        "link": "https://andrenazar.github.io/learnnumbers/",
-        "github": "https://github.com/AndreNazar/learnnumbers",
-        "comercial": false,
-        "langs": ["JavaScript"]
-    },
-    {
-        "title": "HFCRKFLRF",
-        "description": "Переключение английской раскладки на русскую и наоборот",
-        "fullDescription": "Небольшое приложение, которое просто переводит раскладку текста.<br/>Самое интересное, что здесь правильно определяются знаки припинания, например, символ \",\" с английской раскладки на русскую будет переводится как \"Б\", а с русской на английскую - \"?\".",
-        "logo": "/assets/imgs/projects/hfcrkflrf/logo.png",
-        "images": ["/assets/imgs/projects/hfcrkflrf/1.png"],
-        "link": "https://andrenazar.github.io/hfcrkflrf",
-        "github": "https://github.com/AndreNazar/hfcrkflrf",
-        "comercial": false,
-        "langs": ["TypeScript", "SCSS", "Vite"]
-    },
-    {
-        "title": "Loader & Charts",
-        "description": "Тестовое задание из Хабр.Карьера.",
-        "fullDescription": "Это тестовое задание, которое мне прислали из вакансии на хабре. Кстати, я так и не нашел эту вакансию, после выполнения, но мне было интересно снова поработать с Vue.js.<br/><br/>Это небольшой проект, но мне оно показалось интересным, поэтому решил его выложить сюда. Более подробно о задании я расписал в README в репозитории на гитхабе.",
-        "logo": "/assets/imgs/projects/loaders/logo.png",
-        "images": ["/assets/imgs/projects/loaders/1.png", "/assets/imgs/projects/loaders/2.png", "/assets/imgs/projects/loaders/3.png"],
-        "link": "https://andrenazar.github.io/loader-and-charts",
-        "github": "https://github.com/AndreNazar/loader-and-charts",
-        "comercial": false,
-        "langs": ["Vue", "TypeScript", "SCSS", "Vite"]
-    }
+  {
+    "title": "Noxer",
+    "description": "Универсальный ИИ магазин в Telegram Web App",
+    "fullDescription": "AI-продукт, предоставляющий бизнесам (по подписке) полностью контролируемый интернет-магазин в Telegram Web App с настраиваемым ИИ-помощником.<br/><br/>Участвовал в разработке, разрабатывал универсальный магазин и админ-панель для его контроля. Выделить конкретно то, что я делал, трудно, так как ко всему интерфейсу в проекте я приложил руку в той или иной степени.<br/><br/>Можно было бы разделить этот проект на два, потому что админка получилась очень массивная. Была проделана колоссальная работа над админкой и магазином. Очень много контента и возможностей.",
+    "logo": "/assets/imgs/projects/noxer/logo.webp",
+    "images": ["/assets/imgs/projects/noxer/1.jpg", "/assets/imgs/projects/noxer/2.jpg", "/assets/imgs/projects/noxer/3.jpg", "/assets/imgs/projects/noxer/4.png", "/assets/imgs/projects/noxer/5.png", "/assets/imgs/projects/noxer/6.png", "/assets/imgs/projects/noxer/7.png"],
+    "link": "https://noxer.ru",
+    "github": "",
+    "comercial": false,
+    "langs": ["React", "TypeScript", "SCSS", "Vite", "Telegram", "Telegram"]
+  },
+  {
+    "title": "Fit+",
+    "description": "Приложение фитнес-трекер в Telegram",
+    "fullDescription": "ИИ фитнес-тренер, который создает план питания и тренировок под пользователя и доступен 24/7.<br/><br/>Проект разрабатывался в команде Noxer, его идея была в анализе данных, которые вводил пользователь. В бот были встроены различные ИИ-модели, и можно было вписать информацию о своей тренировке, и в формате диалога бот выделял значения для анализа и записывал их в общую БД.<br/>Мы, фронтенд-разработчики, разрабатывали интерфейс приложения в Telegram Web App. Сложнее всего было работать с графиками и отрисовывать их в совместимости с макетом. Но со своей задачей мы справились! Всё работает так, как задумывалось.<br/><br/>В данный момент проект находится на паузе, так как было принято решение сконцентрироваться на флагманском проекте Noxer.",
+    "logo": "/assets/imgs/projects/fit/logo.png",
+    "images": ["/assets/imgs/projects/fit/1.png", "/assets/imgs/projects/fit/2.png", "/assets/imgs/projects/fit/3.png", "/assets/imgs/projects/fit/4.png", "/assets/imgs/projects/fit/5.png", "/assets/imgs/projects/fit/6.png"],
+    "link": "",
+    "github": "",
+    "comercial": false,
+    "langs": ["React", "TypeScript", "SCSS", "Vite", "Telegram"]
+  },
+  {
+    "title": "LF Safe",
+    "description": "Сервис продажи брендовых кроссовок.",
+    "fullDescription": "Сервис продажи и покупки брендовых кроссовок. Узконаправленный локальный проект для конкретной группы пользователей.<br/><br/>Принимал участие в разработке приложения в небольшой команде. Разрабатывал интерфейс с нуля по макету конкурентов (некоторые изменения в дизайн были внесены в момент разработки). В основном работал с бэкенд-разработчиком.<br/><br/>В приложении есть аналитика продаж, CRUD товаров, поиск, информация о профиле.",
+    "logo": "/assets/imgs/projects/lfsafe/logo.png",
+    "images": ["/assets/imgs/projects/lfsafe/1.jpg", "/assets/imgs/projects/lfsafe/2.jpg", "/assets/imgs/projects/lfsafe/3.jpg"],
+    "link": "",
+    "github": "",
+    "comercial": false,
+    "langs": ["React", "Redux", "JavaScript", "SCSS"]
+  },
+  {
+    "title": "Магазин цветов",
+    "description": "Интернет-магазин встроенный в Telegram.",
+    "fullDescription": "Интернет-магазин по продаже цветов. Находился в Telegram WebApp в виде бота. <br />Разрабатывал на заказ, для магазина цветов, с ещё одним backend-разработчиком. Продолжительное время вносили правки в проект. В конечном итоге приложением почти никто не пользовался и сервер перестали оплачивать, концентрируясь на сервисах Яндекс.",
+    "logo": "/assets/imgs/projects/dff/logo.png",
+    "images": ["/assets/imgs/projects/dff/1.png", "/assets/imgs/projects/dff/2.png", "/assets/imgs/projects/dff/3.png"],
+    "link": "",
+    "github": "",
+    "comercial": false,
+    "langs": ["React", "Redux", "JavaScript", "SCSS"]
+  }
 ]
